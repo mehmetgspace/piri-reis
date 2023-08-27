@@ -1,9 +1,9 @@
 /**
- * Formats a given Date object to a Turkish date string.
+ * Converts a given Date object into a string formatted for the Turkish locale.
  *
- * @param date - The Date object to be formatted.
- * @returns - A string representing the date in the format 'dd.mm.yyyy'
+ * @param date - A Date object that needs to be formatted.
+ * @returns Formatted date string in the 'dd.mm.yyyy' format.
  */
-export const formatDate = (date: Date) => {
+export const formatDate = (date: Date): string => {
   return date.toLocaleDateString('tr-TR');
 }
