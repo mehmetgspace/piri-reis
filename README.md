@@ -12,6 +12,48 @@ Using npm:
 npm install piri-reis
 ```
 
+## Functions
+
+### formatDate.ts
+
+Formats a given date to Turkish locale.
+
+```
+formatDate(date: Date): string
+```
+
+### formatTurkishLira.ts
+
+Formats a given number into Turkish Lira representation.
+
+```
+formatTurkishLira(amount: number): string
+```
+
+### hasTurkishVowels.ts
+
+Checks if a string contains Turkish vowels.
+
+```
+hasTurkishVowels(str: string): boolean
+```
+
+### replaceTurkishChars.ts
+
+Replaces Turkish characters in a string with their English counterparts.
+
+```
+replaceTurkishChars(input: string): string
+```
+
+### toUrlSlug.ts
+
+Converts a given string into a URL-friendly slug, considering Turkish characters.
+
+```
+toUrlSlug(sentence: string): string
+```
+
 ## Contributing
 
 1. Fork the project.
