@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2023-09-03
+
+### Added
+
+- `isTRNationalIDValid` function for validating Turkish National ID numbers.
+
 ## [1.0.3] - 2023-09-02
 
 ### Changed

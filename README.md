@@ -54,6 +54,14 @@ Converts a given string into a URL-friendly slug, considering Turkish characters
 toUrlSlug(sentence: string): string
 ```
 
+### isTRNationalIDValid.ts
+
+Validates a given Turkish National ID.
+
+```
+isTRNationalIDValid(nationalID: string): boolean
+```
+
 ## Contributing
 
 1. Fork the project.
