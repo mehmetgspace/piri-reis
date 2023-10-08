@@ -62,6 +62,14 @@ Validates a given Turkish National ID.
 isTRNationalIDValid(nationalID: string): boolean
 ```
 
+### getCityFromPlate.ts
+
+Retrieves the city name based on the provided Turkish plate code.
+
+```
+getCityFromPlate(plateNumber: string): string | null
+```
+
 ## Contributing
 
 1. Fork the project.
