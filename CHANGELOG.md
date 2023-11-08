@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.6] - 2023-11-09
+
+### Added
+
+- `calculateTurkishVAT` function for calculating the Value Added Tax (VAT) amount based on the Turkish VAT rate.
+
 ## [1.0.5] - 2023-10-09
 
 ### Added

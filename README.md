@@ -70,6 +70,14 @@ Retrieves the city name based on the provided Turkish plate code.
 getCityFromPlate(plateNumber: string): string | null
 ```
 
+### calculateTurkishVAT.ts
+
+Calculates the Value Added Tax (VAT) amount for a given amount based on the Turkish VAT rate.
+
+```
+calculateTurkishVAT(amount: number, vatRate: number): number
+```
+
 ## Contributing
 
 1. Fork the project.
