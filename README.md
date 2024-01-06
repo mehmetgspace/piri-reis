@@ -2,6 +2,8 @@
 
 A collection of JavaScript/TypeScript functions tailored for Turkish web projects.
 
+![Piri Reis Logo](piri-reis.png)
+
 ![npm](https://img.shields.io/npm/v/piri-reis)
 
 ## Installation
